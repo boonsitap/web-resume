@@ -5,5 +5,5 @@ services:
     image: resume
     container_name: resume
     ports:
-      - "3000:3000"
+      - "6000:6000"
     command: "npm start"

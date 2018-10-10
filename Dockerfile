@@ -9,6 +9,6 @@ RUN npm install react-scripts -g
 
 COPY . /usr/src/app
 
-EXPOSE 3000
+EXPOSE 6000
 
 CMD [ "npm", "start" ]
