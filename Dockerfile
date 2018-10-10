@@ -1,11 +1,9 @@
-FROM node:8.11.4-jessie
+FROM node:8.10.0
 
-RUN mkdir -p /usr/src/app
-
+RUN mkdir /usr/src/app
 WORKDIR /usr/src/app
 
 COPY package.json /usr/src/app/
-
 RUN npm install
 RUN npm install react-scripts -g
 
